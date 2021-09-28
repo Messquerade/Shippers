@@ -12,19 +12,19 @@
     <form action="/parcel" method="POST" style="margin-top:50px">
       <div class="form-group">
         <label for="height">Height in Inches:</label>
-        <input id="height" name="height" type="float" min="0">
+        <input id="height" name="height" type="number" step="0.01" min="0" required>
       </div>
       <div class="form-group">
         <label for="width">Width in Inches:</label>
-        <input id="width" name="width" type="float" min="0">
+        <input id="width" name="width" type="number" step="0.01" min="0" required>
       </div>
       <div class="form-group">
         <label for="length">Length in Inches:</label>
-        <input id="length" name="length" type="float" min="0">
+        <input id="length" name="length" type="number" step="0.01" min="0" required>
       </div>
       <div class="form-group">
         <label for="weight">Weight in Pounds:</label>
-        <input id="weight" name="weight" type="float" min="0">
+        <input id="weight" name="weight" type="number" step="0.01" min="0" required>
       </div>
       <button type="submit" class="btn-outline-success btn-lg">Submit</button>
     </form>

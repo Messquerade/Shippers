@@ -42,5 +42,5 @@ Copyright (c) 2021 Diego Serafico and Anna Clarke
 
 ## Contact Information
 
-_Diego Serafico_
+_Diego Serafico: dseraficohernandez@gmail.com_  
 _Anna Clarke: anclarkie@gmail.com_
