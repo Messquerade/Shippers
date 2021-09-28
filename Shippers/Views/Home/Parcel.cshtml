@@ -8,19 +8,17 @@
   <title>Shippers</title>
 </head>
 <body style="text-align:center; margin-top:50px">
-  <h3>Your parcel has the following parameters:</h3>
-  <h4>Height: @Model.Height inches</h4>
-  <h4>Width: @Model.Width inches</h4>
-  <h4>Length: @Model.Length inches</h4>
-  <h4>Weight: @Model.Weight lbs</h4>
-  <h4>Volume: @Model.Volume cubic inches</h4>
-  <h3>The Total Price to ship your parcel is $@Model.Price</h3>
-  <br>
-  <a href="/form" class="btn-lg btn-primary">New Parcel</a>
-  <a href="/" class="btn-lg btn-primary">Home</a>
-
-
-
-  
+  <div class="container">
+    <h3>Your parcel has the following parameters:</h3>
+    <h4>Height: @Model.Height inches</h4>
+    <h4>Width: @Model.Width inches</h4>
+    <h4>Length: @Model.Length inches</h4>
+    <h4>Weight: @Model.Weight lbs</h4>
+    <h4>Volume: @Model.Volume cubic inches</h4>
+    <h3>The Total Price to ship your parcel is $@Model.Price</h3>
+    <br>
+    <a href="/form" class="btn-lg btn-outline-primary">New Parcel</a>
+    <a href="/" class="btn-lg btn-outline-primary">Home</a>
+  </div>
 </body>
 </html>

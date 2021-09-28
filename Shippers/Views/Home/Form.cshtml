@@ -4,21 +4,30 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <title>Shippers</title>
 </head>
-<body>
-  <form action="/parcel" method="POST">
-    <label for="height">Height in Inches</label>
-    <input id="height" name="height" type="float" min="0">
+<body style="text-align:center; margin-top:50px">
+  <div class="container">
+    <h2>Enter the dimensions and weight of your package</h2>
     <br>
-    <label for="width">Width in Inches</label>
-    <input id="width" name="width" type="float" min="0">
-    <br>
-    <label for="length">Length in Inches</label>
-    <input id="length" name="length" type="float" min="0">
-    <br>
-    <label for="weight">Weight in Pounds</label>
-    <input id="weight" name="weight" type="float" min="0">
-    <br>
-    <button type="submit">Submit</button>
-  </form>
+    <a href="/" class="btn-outline-primary btn">Home</a>
+    <form action="/parcel" method="POST" style="margin-top:50px">
+      <div class="form-group">
+        <label for="height">Height in Inches:</label>
+        <input id="height" name="height" type="float" min="0">
+      </div>
+      <div class="form-group">
+        <label for="width">Width in Inches:</label>
+        <input id="width" name="width" type="float" min="0">
+      </div>
+      <div class="form-group">
+        <label for="length">Length in Inches:</label>
+        <input id="length" name="length" type="float" min="0">
+      </div>
+      <div class="form-group">
+        <label for="weight">Weight in Pounds:</label>
+        <input id="weight" name="weight" type="float" min="0">
+      </div>
+      <button type="submit" class="btn-outline-success btn-lg">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
